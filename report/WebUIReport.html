@@ -196,9 +196,9 @@
         
     <div class='page-header'>
         <h1>apistudy Test Report</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2018-03-25 17:44:18</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:00.105006</p>
-<p class='attribute'><strong>状态:</strong> 通过 2</p>
+    <p class='attribute'><strong>开始时间:</strong> 2018-08-07 20:32:20</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:01.337534</p>
+<p class='attribute'><strong>状态:</strong> 通过 3 失败 2</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'>龙腾测试实战.</p></div>
@@ -230,7 +230,7 @@
         </tr>
         
     <tr class='passClass'>
-        <td>test.testcase.bindingcard.test_bindingcard.BingdingCard: 绑定加油卡</td>
+        <td>bindingcard.test_bindingcard.BingdingCard: 绑定加油卡</td>
         <td>2</td>
         <td>2</td>
         <td>0</td>
@@ -248,11 +248,115 @@
     <td colspan='5' align='center'>通过</td>
 </tr>
 
+    <tr class='failClass'>
+        <td>bindingcard.test_bindingcard.BingdingCardOk: 绑定加油卡成功</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c2',1)">详情</a></td>
+    </tr>
+
+<tr id='ft2.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_bingding_card_ok: 绑定卡号成功</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        失败</a>
+
+    <div id='div_ft2.1' class="popup_window">
+        <pre>
+        ft2.1: Traceback (most recent call last):
+  File "E:\Python框架\apiteststudy\test\testcase\bindingcard\test_bindingcard.py", line 62, in test_bingding_card_ok
+    self.assertEqual(r.json()['success'], True)
+AssertionError: False != True
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    <tr class='failClass'>
+        <td>bindingcard.test_recharge.Recharge: 加油卡chongzhi</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c3',2)">详情</a></td>
+    </tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_no_exist_cardnumber_recharge: 加油卡号不存在</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        通过</a>
+
+    <div id='div_pt3.1' class="popup_window">
+        <pre>
+        pt3.1: INFO:apiteststudy: 测试开始
+INFO:apiteststudy:加油卡号不存在 开始
+INFO:apiteststudy:url: http://115.28.108.130:8080/gasStation/process
+INFO:apiteststudy:入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+INFO:apiteststudy:期望结果:5013.0
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft3.2' class='none'>
+    <td class='failCase'><div class='testcase'>test_recharge_ok: 充值成功</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.2')" >
+        失败</a>
+
+    <div id='div_ft3.2' class="popup_window">
+        <pre>
+        ft3.2: INFO:apiteststudy:加油卡充值 测试开始
+INFO:apiteststudy:充值成功 开始
+INFO:apiteststudy:url: http://115.28.108.130:8080/gasStation/process
+INFO:apiteststudy:入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+INFO:apiteststudy:期望结果:200.0
+Traceback (most recent call last):
+  File "E:\Python框架\apiteststudy\test\testcase\bindingcard\test_recharge.py", line 29, in test_recharge_ok
+    self.assertEqual( result, expire_result)
+AssertionError: 5013 != 200.0
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
         <tr id='total_row'>
             <td>总计</td>
+            <td>5</td>
+            <td>3</td>
             <td>2</td>
-            <td>2</td>
-            <td>0</td>
             <td>0</td>
             <td>&nbsp;</td>
         </tr>
@@ -286,8 +390,8 @@
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:2, name:'通过'},
-                        {value:0, name:'失败'},
+                        {value:3, name:'通过'},
+                        {value:2, name:'失败'},
                         {value:0, name:'错误'}
                     ],
                     itemStyle: {

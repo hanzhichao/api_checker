@@ -1,65 +1,2963 @@
+2017-11-25 18:36:55,854 apiteststudy INFO     this is test
+2017-11-25 18:37:27,664 apiteststudy INFO     this is test
+2017-11-25 18:39:S apiteststudy INFO     this is test
+2017-11-25 18:39:54 apiteststudy INFO     this is test
+2017-11-25 18:40:30 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 18:40:30 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 18:40:30 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:40:30 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 18:40:30 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 18:42:06 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 18:42:06 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 18:42:06 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:42:06 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 18:42:06 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 18:43:43 apiteststudy INFO      测试开始
+2017-11-25 18:43:43 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 18:43:43 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:43:43 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRjczEx", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 18:43:43 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 18:43:43 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 18:43:43 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 18:43:43 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 18:43:43 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:43:43 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 18:43:43 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 18:43:43 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 18:43:43 apiteststudy INFO      测试开始
+2017-11-25 18:43:43 apiteststudy INFO     绑定成功 开始
+2017-11-25 18:43:43 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:43:43 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRjczEx", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 18:43:43 apiteststudy INFO     期望结果:{
+    "code": 5010, 
+    "msg": "绑定成功", 
+    "result": {
+        "UserId": 918
+    }, 
+    "success": true
+}
 
-[2018-09-16 15:16:10] INFO [<module>: run_all.py, 6] ========================= ���Կ�ʼ =========================
-[2018-09-16 15:16:10] INFO [test_user_login_normal: test_user_login.py, 19] ����������test_user_login_normal
-[2018-09-16 15:16:10] INFO [test_user_login_normal: test_user_login.py, 20] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 15:16:10] INFO [test_user_login_normal: test_user_login.py, 21] �������ݣ�{"name":"����","password":"123456"}
-[2018-09-16 15:16:10] INFO [test_user_login_normal: test_user_login.py, 22] ���������<h1>��¼�ɹ�</h1>
-[2018-09-16 15:16:10] INFO [test_user_login_password_wrong: test_user_login.py, 37] ����������test_user_login_password_wrong
-[2018-09-16 15:16:10] INFO [test_user_login_password_wrong: test_user_login.py, 38] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 15:16:10] INFO [test_user_login_password_wrong: test_user_login.py, 39] �������ݣ�{'name': '����', 'password': '1234567'}
-[2018-09-16 15:16:10] INFO [test_user_login_password_wrong: test_user_login.py, 40] ���������<h1>ʧ�ܣ��û������������</h1>
-[2018-09-16 15:16:10] INFO [<module>: run_all.py, 12] ========================= ���Խ��� =========================
-[2018-09-16 15:16:43] INFO [<module>: run_all.py, 6] ========================= ���Կ�ʼ =========================
-[2018-09-16 15:16:43] INFO [test_user_login_normal: test_user_login.py, 19] ����������test_user_login_normal
-[2018-09-16 15:16:43] INFO [test_user_login_normal: test_user_login.py, 20] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 15:16:43] INFO [test_user_login_normal: test_user_login.py, 21] �������ݣ�{"name":"����","password":"123456"}
-[2018-09-16 15:16:43] INFO [test_user_login_normal: test_user_login.py, 22] ���������<h1>��¼�ɹ�</h1>
-[2018-09-16 15:16:43] INFO [test_user_login_password_wrong: test_user_login.py, 37] ����������test_user_login_password_wrong
-[2018-09-16 15:16:43] INFO [test_user_login_password_wrong: test_user_login.py, 38] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 15:16:43] INFO [test_user_login_password_wrong: test_user_login.py, 39] �������ݣ�{'name': '����', 'password': '1234567'}
-[2018-09-16 15:16:43] INFO [test_user_login_password_wrong: test_user_login.py, 40] ���������<h1>ʧ�ܣ��û������������</h1>
-[2018-09-16 15:16:43] INFO [<module>: run_all.py, 12] ========================= ���Խ��� =========================
-[2018-09-16 16:40:26] INFO [<module>: run_all.py, 7] ========================= ���Կ�ʼ =========================
-[2018-09-16 16:40:27] INFO [test_user_login_normal: test_user_login.py, 19] ����������test_user_login_normal
-[2018-09-16 16:40:27] INFO [test_user_login_normal: test_user_login.py, 20] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 16:40:27] INFO [test_user_login_normal: test_user_login.py, 21] �������ݣ�{"name":"����","password":"123456"}
-[2018-09-16 16:40:27] INFO [test_user_login_normal: test_user_login.py, 22] ���������<h1>��¼�ɹ�</h1>
-[2018-09-16 16:40:27] INFO [test_user_login_password_wrong: test_user_login.py, 37] ����������test_user_login_password_wrong
-[2018-09-16 16:40:27] INFO [test_user_login_password_wrong: test_user_login.py, 38] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 16:40:27] INFO [test_user_login_password_wrong: test_user_login.py, 39] �������ݣ�{'name': '����', 'password': '1234567'}
-[2018-09-16 16:40:27] INFO [test_user_login_password_wrong: test_user_login.py, 40] ���������<h1>ʧ�ܣ��û������������</h1>
-[2018-09-16 16:40:36] INFO [<module>: run_all.py, 14] �ʼ��ѷ���
-[2018-09-16 16:40:36] INFO [<module>: run_all.py, 15] ========================= ���Խ��� =========================
-[2018-09-16 18:01:10] INFO [<module>: config.py, 42] hello
-[2018-09-16 18:01:29] INFO [test_user_login_normal: test_user_login.py, 20] ����������test_user_login_normal
-[2018-09-16 18:01:29] INFO [test_user_login_normal: test_user_login.py, 21] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 18:01:29] INFO [test_user_login_normal: test_user_login.py, 22] �������ݣ�{"name":"����","password":"123456"}
-[2018-09-16 18:01:29] INFO [test_user_login_normal: test_user_login.py, 23] ���������<h1>��¼�ɹ�</h1>
-[2018-09-16 18:01:59] INFO [test_user_login_normal: test_user_login.py, 20] ����������test_user_login_normal
-[2018-09-16 18:01:59] INFO [test_user_login_normal: test_user_login.py, 21] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 18:01:59] INFO [test_user_login_normal: test_user_login.py, 22] �������ݣ�{"name":"����","password":"123456"}
-[2018-09-16 18:01:59] INFO [test_user_login_normal: test_user_login.py, 23] ���������<h1>��¼�ɹ�</h1>
-[2018-09-16 18:02:13] INFO [test_user_login_password_wrong: test_user_login.py, 38] ����������test_user_login_password_wrong
-[2018-09-16 18:02:13] INFO [test_user_login_password_wrong: test_user_login.py, 39] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 18:02:13] INFO [test_user_login_password_wrong: test_user_login.py, 40] �������ݣ�{'name': '����', 'password': '1234567'}
-[2018-09-16 18:02:13] INFO [test_user_login_password_wrong: test_user_login.py, 41] ���������<h1>ʧ�ܣ��û������������</h1>
-[2018-09-16 18:07:11] INFO [<module>: run_all.py, 6] ========================= ���Կ�ʼ =========================
-[2018-09-16 18:07:11] INFO [test_user_login_normal: test_user_login.py, 20] ����������test_user_login_normal
-[2018-09-16 18:07:11] INFO [test_user_login_normal: test_user_login.py, 21] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 18:07:11] INFO [test_user_login_normal: test_user_login.py, 22] �������ݣ�{"name":"����","password":"123456"}
-[2018-09-16 18:07:11] INFO [test_user_login_normal: test_user_login.py, 23] ���������<h1>��¼�ɹ�</h1>
-[2018-09-16 18:07:12] INFO [test_user_login_password_wrong: test_user_login.py, 38] ����������test_user_login_password_wrong
-[2018-09-16 18:07:12] INFO [test_user_login_password_wrong: test_user_login.py, 39] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 18:07:12] INFO [test_user_login_password_wrong: test_user_login.py, 40] �������ݣ�{'name': '����', 'password': '1234567'}
-[2018-09-16 18:07:12] INFO [test_user_login_password_wrong: test_user_login.py, 41] ���������<h1>ʧ�ܣ��û������������</h1>
-[2018-09-16 18:07:16] INFO [<module>: run_all.py, 13] �ʼ��ѷ���
-[2018-09-16 18:07:16] INFO [<module>: run_all.py, 14] ========================= ���Խ��� =========================
-[2018-09-16 18:14:41] INFO [<module>: run_all.py, 6] ========================= ���Կ�ʼ =========================
-[2018-09-16 18:14:41] INFO [test_user_login_normal: test_user_login.py, 20] ����������test_user_login_normal
-[2018-09-16 18:14:41] INFO [test_user_login_normal: test_user_login.py, 21] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 18:14:41] INFO [test_user_login_normal: test_user_login.py, 22] �������ݣ�{"name":"����","password":"123456"}
-[2018-09-16 18:14:41] INFO [test_user_login_normal: test_user_login.py, 23] ���������<h1>��¼�ɹ�</h1>
-[2018-09-16 18:14:41] INFO [test_user_login_password_wrong: test_user_login.py, 38] ����������test_user_login_password_wrong
-[2018-09-16 18:14:41] INFO [test_user_login_password_wrong: test_user_login.py, 39] url: http://115.28.108.130:5000/api/user/login/
-[2018-09-16 18:14:41] INFO [test_user_login_password_wrong: test_user_login.py, 40] �������ݣ�{'name': '����', 'password': '1234567'}
-[2018-09-16 18:14:41] INFO [test_user_login_password_wrong: test_user_login.py, 41] ���������<h1>ʧ�ܣ��û������������</h1>
+2017-11-25 18:43:44 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 18:58:03 apiteststudy INFO      测试开始
+2017-11-25 18:58:03 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 18:58:03 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:58:03 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 18:58:03 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 18:58:04 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 18:58:04 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 18:58:04 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 18:58:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:58:04 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 18:58:04 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 18:58:04 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 18:58:04 apiteststudy INFO      测试开始
+2017-11-25 18:58:04 apiteststudy INFO     绑定成功 开始
+2017-11-25 18:58:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 18:58:04 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 18:58:04 apiteststudy INFO     期望结果:{
+    "code": 5010, 
+    "msg": "绑定成功", 
+    "result": {
+        "UserId": 918
+    }, 
+    "success": true
+}
+
+2017-11-25 18:58:04 apiteststudy INFO     响应内容:b'{"code":5014,"msg":"\xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe5\x8f\xaa\xe8\x83\xbd\xe7\xbb\x91\xe5\xae\x9a\xe4\xb8\xa4\xe5\xbc\xa0\xe5\x8d\xa1","success":false}'
+2017-11-25 19:08:04 apiteststudy INFO      测试开始
+2017-11-25 19:08:04 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:08:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:08:04 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:08:04 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:08:04 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 19:08:04 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:08:04 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:08:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:08:04 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:08:04 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:08:04 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 19:08:04 apiteststudy INFO      测试开始
+2017-11-25 19:08:04 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:08:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:08:04 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:08:04 apiteststudy INFO     期望结果:{
+    "code": 5010, 
+    "msg": "绑定成功", 
+    "result": {
+        "UserId": 918
+    }, 
+    "success": true
+}
+
+2017-11-25 19:08:04 apiteststudy INFO     响应内容:b'{"code":5014,"msg":"\xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe5\x8f\xaa\xe8\x83\xbd\xe7\xbb\x91\xe5\xae\x9a\xe4\xb8\xa4\xe5\xbc\xa0\xe5\x8d\xa1","success":false}'
+2017-11-25 19:11:44 apiteststudy INFO      测试开始
+2017-11-25 19:11:44 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:11:44 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:11:44 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:11:44 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:11:44 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 19:11:44 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:11:44 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:11:44 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:11:44 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:11:44 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:11:45 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 19:11:45 apiteststudy INFO      测试开始
+2017-11-25 19:11:45 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:11:45 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:11:45 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:11:45 apiteststudy INFO     期望结果:{
+    "code": 5010, 
+    "msg": "绑定成功", 
+    "result": {
+        "UserId": 918
+    }, 
+    "success": true
+}
+
+2017-11-25 19:11:45 apiteststudy INFO     响应内容:b'{"code":5010,"msg":"\xe7\xbb\x91\xe5\xae\x9a\xe6\x88\x90\xe5\x8a\x9f","result":{"UserId":2017114046},"success":true}'
+2017-11-25 19:14:46 apiteststudy INFO      测试开始
+2017-11-25 19:14:46 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:14:46 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:14:46 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:14:46 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:14:46 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 19:14:46 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:14:46 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:14:46 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:14:46 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:14:46 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:14:46 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 19:14:46 apiteststudy INFO      测试开始
+2017-11-25 19:14:46 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:14:46 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:14:46 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:14:46 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:14:46 apiteststudy INFO     响应内容:b'{"code":5010,"msg":"\xe7\xbb\x91\xe5\xae\x9a\xe6\x88\x90\xe5\x8a\x9f","result":{"UserId":2017114046},"success":true}'
+2017-11-25 19:16:30 apiteststudy INFO      测试开始
+2017-11-25 19:16:30 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:16:30 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:16:30 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:16:30 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:16:30 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 19:16:30 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:16:30 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:16:30 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:16:30 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:16:30 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:16:30 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 19:16:30 apiteststudy INFO      测试开始
+2017-11-25 19:16:30 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:16:30 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:16:30 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:16:30 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:16:30 apiteststudy INFO     响应内容:b'{"code":5010,"msg":"\xe7\xbb\x91\xe5\xae\x9a\xe6\x88\x90\xe5\x8a\x9f","result":{"UserId":2017114046},"success":true}'
+2017-11-25 19:16:48 apiteststudy INFO      测试开始
+2017-11-25 19:16:48 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:16:48 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:16:48 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:16:48 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:16:48 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 19:16:48 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:16:48 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:16:48 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:16:48 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:16:48 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:16:48 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 19:16:48 apiteststudy INFO      测试开始
+2017-11-25 19:16:48 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:16:48 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:16:48 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:16:48 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:16:48 apiteststudy INFO     响应内容:b'{"code":5010,"msg":"\xe7\xbb\x91\xe5\xae\x9a\xe6\x88\x90\xe5\x8a\x9f","result":{"UserId":2017114046},"success":true}'
+2017-11-25 19:17:56 apiteststudy INFO      测试开始
+2017-11-25 19:17:56 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:17:56 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:17:56 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:17:56 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:17:56 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 19:17:56 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:17:56 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:17:56 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:17:56 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:17:56 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:17:56 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 19:17:56 apiteststudy INFO      测试开始
+2017-11-25 19:17:56 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:17:56 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:17:56 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:17:56 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:17:57 apiteststudy INFO     响应内容:b'{"code":5010,"msg":"\xe7\xbb\x91\xe5\xae\x9a\xe6\x88\x90\xe5\x8a\x9f","result":{"UserId":2017114046},"success":true}'
+2017-11-25 19:18:26 apiteststudy INFO      测试开始
+2017-11-25 19:18:26 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:18:26 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:18:26 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:18:26 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:18:26 apiteststudy INFO     响应内容:b'{"code":5013,"msg":"\xe5\x8a\xa0\xe6\xb2\xb9\xe5\x8d\xa1\xe5\x8f\xb7\xe4\xb8\x8d\xe5\xad\x98\xe5\x9c\xa8","success":false}'
+2017-11-25 19:18:26 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:18:26 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:18:26 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:18:26 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:18:26 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:18:26 apiteststudy INFO     响应内容:b'{"code":100,"msg":"\xe5\xaf\xb9\xe4\xb8\x8d\xe8\xb5\xb7,\xe6\x82\xa8\xe7\x9a\x84\xe7\xac\xac\xe4\xb8\x89\xe6\x96\xb9\xe6\x9c\xba\xe6\x9e\x84\xe6\x97\xa0\xe6\x9d\x83\xe9\x99\x90\xe8\xae\xbf\xe9\x97\xae\xe8\xaf\xa5\xe6\x8e\xa5\xe5\x8f\xa3","success":false}'
+2017-11-25 19:18:26 apiteststudy INFO      测试开始
+2017-11-25 19:18:26 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:18:26 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:18:26 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:18:26 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:18:26 apiteststudy INFO     响应内容:b'{"code":5010,"msg":"\xe7\xbb\x91\xe5\xae\x9a\xe6\x88\x90\xe5\x8a\x9f","result":{"UserId":2017114046},"success":true}'
+2017-11-25 19:19:43 apiteststudy INFO      测试开始
+2017-11-25 19:19:43 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:19:43 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:19:43 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:19:43 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:19:43 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:19:43 apiteststudy INFO     充值成功 开始
+2017-11-25 19:19:43 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:19:43 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "123445",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:19:43 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:23:03 apiteststudy INFO      测试开始
+2017-11-25 19:23:03 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:23:03 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:23:03 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:23:03 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:23:03 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:23:03 apiteststudy INFO     充值成功 开始
+2017-11-25 19:23:03 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:23:03 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "123445",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:23:03 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:27:41 apiteststudy INFO      测试开始
+2017-11-25 19:27:41 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:27:41 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:27:41 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:27:41 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:27:41 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:27:41 apiteststudy INFO     充值成功 开始
+2017-11-25 19:27:41 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:27:41 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:27:41 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:28:41 apiteststudy INFO      测试开始
+2017-11-25 19:28:41 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:28:41 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:28:41 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:28:41 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:28:41 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:28:41 apiteststudy INFO     充值成功 开始
+2017-11-25 19:28:41 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:28:41 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:28:41 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:29:17 apiteststudy INFO      测试开始
+2017-11-25 19:29:17 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:29:17 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:29:17 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:29:17 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:29:18 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:29:18 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:29:18 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:29:18 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:29:18 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:29:18 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:29:18 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:29:18 apiteststudy INFO      测试开始
+2017-11-25 19:29:18 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:29:18 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:29:18 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:29:18 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:29:18 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:31:19 apiteststudy INFO      测试开始
+2017-11-25 19:31:19 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:31:19 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:19 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:31:19 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:31:19 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:31:19 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:31:19 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:31:19 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:19 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:31:19 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:31:19 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:31:19 apiteststudy INFO      测试开始
+2017-11-25 19:31:19 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:31:19 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:19 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:31:19 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:31:20 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:31:20 apiteststudy INFO      测试开始
+2017-11-25 19:31:20 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:31:20 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:20 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:31:20 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:31:20 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:31:20 apiteststudy INFO     充值成功 开始
+2017-11-25 19:31:20 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:20 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:31:20 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:31:28 apiteststudy INFO      测试开始
+2017-11-25 19:31:28 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:31:28 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:28 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:31:28 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:31:28 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:31:28 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:31:28 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:31:28 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:28 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:31:28 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:31:28 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:31:28 apiteststudy INFO      测试开始
+2017-11-25 19:31:28 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:31:28 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:28 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:31:28 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:31:29 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:31:29 apiteststudy INFO      测试开始
+2017-11-25 19:31:29 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:31:29 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:29 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:31:29 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:31:29 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:31:29 apiteststudy INFO     充值成功 开始
+2017-11-25 19:31:29 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:31:29 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:31:29 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:39:02 apiteststudy INFO     this is test
+2017-11-25 19:39:53 apiteststudy INFO      测试开始
+2017-11-25 19:39:53 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:39:53 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:39:53 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:39:53 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:39:53 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:39:53 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:39:53 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:39:53 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:39:53 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:39:53 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:39:53 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:39:53 apiteststudy INFO      测试开始
+2017-11-25 19:39:53 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:39:53 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:39:53 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:39:53 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:39:53 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:39:54 apiteststudy INFO      测试开始
+2017-11-25 19:39:54 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:39:54 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:39:54 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:39:54 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:39:54 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:39:54 apiteststudy INFO     充值成功 开始
+2017-11-25 19:39:54 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:39:54 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:39:54 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:41:51 apiteststudy INFO      测试开始
+2017-11-25 19:41:51 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:41:51 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:41:51 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:41:51 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:41:51 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:41:51 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:41:51 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:41:51 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:41:51 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:41:51 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:41:52 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:41:52 apiteststudy INFO      测试开始
+2017-11-25 19:41:52 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:41:52 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:41:52 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:41:52 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:41:52 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:41:52 apiteststudy INFO      测试开始
+2017-11-25 19:41:52 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:41:52 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:41:52 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:41:52 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:41:52 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:41:52 apiteststudy INFO     充值成功 开始
+2017-11-25 19:41:52 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:41:52 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:41:52 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:43:45 apiteststudy INFO      测试开始
+2017-11-25 19:43:45 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:43:45 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:45 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:43:45 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:43:45 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:43:45 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:43:45 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:43:45 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:45 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:43:45 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:43:46 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:43:46 apiteststudy INFO      测试开始
+2017-11-25 19:43:46 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:43:46 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:46 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:43:46 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:43:46 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:43:52 apiteststudy INFO      测试开始
+2017-11-25 19:43:52 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:43:52 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:52 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:43:52 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:43:53 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:43:53 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:43:53 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:43:53 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:53 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:43:53 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:43:54 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:43:54 apiteststudy INFO      测试开始
+2017-11-25 19:43:54 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:43:54 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:54 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:43:54 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:43:54 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:43:55 apiteststudy INFO      测试开始
+2017-11-25 19:43:55 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:43:55 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:55 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:43:55 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:43:55 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:43:55 apiteststudy INFO     充值成功 开始
+2017-11-25 19:43:55 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:43:55 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:43:55 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:50:46 apiteststudy INFO      测试开始
+2017-11-25 19:50:46 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:50:46 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:50:46 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:50:46 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:50:46 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:50:46 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:50:46 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:50:46 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:50:46 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:50:46 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:50:46 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:54:39 apiteststudy INFO      测试开始
+2017-11-25 19:54:39 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:54:39 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:54:39 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:54:39 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:54:39 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:54:39 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:54:39 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:54:39 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:54:39 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:54:39 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:54:40 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:54:40 apiteststudy INFO      测试开始
+2017-11-25 19:54:40 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:54:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:54:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:54:40 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:54:40 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:54:40 apiteststudy INFO      测试开始
+2017-11-25 19:54:40 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:54:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:54:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:54:40 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:54:40 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:54:40 apiteststudy INFO     充值成功 开始
+2017-11-25 19:54:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:54:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:54:40 apiteststudy INFO     期望结果:200.0
+2017-11-25 19:57:53 apiteststudy INFO      测试开始
+2017-11-25 19:57:53 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 19:57:53 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:57:53 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 19:57:53 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 19:57:54 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 19:57:54 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 19:57:54 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 19:57:54 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:57:54 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 19:57:54 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 19:57:54 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 19:57:54 apiteststudy INFO      测试开始
+2017-11-25 19:57:54 apiteststudy INFO     绑定成功 开始
+2017-11-25 19:57:54 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:57:54 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 19:57:54 apiteststudy INFO     期望结果:true
+
+2017-11-25 19:57:54 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 19:57:54 apiteststudy INFO      测试开始
+2017-11-25 19:57:54 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 19:57:54 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:57:54 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:57:54 apiteststudy INFO     期望结果:5013.0
+2017-11-25 19:57:55 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 19:57:55 apiteststudy INFO     充值成功 开始
+2017-11-25 19:57:55 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 19:57:55 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 19:57:55 apiteststudy INFO     期望结果:200.0
+2017-11-25 20:10:19 apiteststudy INFO      测试开始
+2017-11-25 20:10:19 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 20:10:19 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:10:19 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 20:10:19 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 20:10:19 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 20:10:19 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 20:10:19 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 20:10:19 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:10:19 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 20:10:19 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 20:10:19 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 20:11:19 apiteststudy INFO      测试开始
+2017-11-25 20:11:19 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 20:11:19 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:11:19 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 20:11:19 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 20:11:19 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 20:11:19 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 20:11:19 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 20:11:19 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:11:19 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 20:11:19 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 20:11:20 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 20:11:20 apiteststudy INFO      测试开始
+2017-11-25 20:11:20 apiteststudy INFO     绑定成功 开始
+2017-11-25 20:11:20 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:11:20 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 20:11:20 apiteststudy INFO     期望结果:true
+
+2017-11-25 20:11:20 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 20:11:20 apiteststudy INFO      测试开始
+2017-11-25 20:11:20 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 20:11:20 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:11:20 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 20:11:20 apiteststudy INFO     期望结果:5013.0
+2017-11-25 20:11:20 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 20:11:20 apiteststudy INFO     充值成功 开始
+2017-11-25 20:11:20 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:11:20 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 20:11:20 apiteststudy INFO     期望结果:200.0
+2017-11-25 20:14:46 apiteststudy INFO      测试开始
+2017-11-25 20:14:46 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-25 20:14:46 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:14:46 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-25 20:14:46 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-25 20:14:47 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-25 20:14:47 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-25 20:14:47 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-25 20:14:47 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:14:47 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-25 20:14:47 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-25 20:14:47 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-25 20:14:47 apiteststudy INFO      测试开始
+2017-11-25 20:14:47 apiteststudy INFO     绑定成功 开始
+2017-11-25 20:14:47 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:14:47 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-25 20:14:47 apiteststudy INFO     期望结果:true
+
+2017-11-25 20:14:47 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-25 20:14:48 apiteststudy INFO      测试开始
+2017-11-25 20:14:48 apiteststudy INFO     加油卡号不存在 开始
+2017-11-25 20:14:48 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:14:48 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 20:14:48 apiteststudy INFO     期望结果:5013.0
+2017-11-25 20:14:48 apiteststudy INFO     加油卡充值 测试开始
+2017-11-25 20:14:48 apiteststudy INFO     充值成功 开始
+2017-11-25 20:14:48 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-25 20:14:48 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-25 20:14:48 apiteststudy INFO     期望结果:200.0
+2017-11-26 14:39:26 apiteststudy INFO     this is test
+2017-11-26 14:40:49 apiteststudy INFO     this is test
+2017-11-26 14:40:49 apiteststudy WARNING  this is test
+2017-11-26 14:52:28 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-26 14:52:28 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-26 14:52:28 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 14:52:28 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-26 14:52:28 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-26 15:43:03 apiteststudy INFO      测试开始
+2017-11-26 15:43:03 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-26 15:43:03 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 15:43:03 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-26 15:43:03 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-26 15:43:03 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-26 15:43:03 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-26 15:43:03 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-26 15:43:03 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 15:43:03 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-26 15:43:03 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-26 15:43:03 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-26 15:43:03 apiteststudy INFO      测试开始
+2017-11-26 15:43:03 apiteststudy INFO     绑定成功 开始
+2017-11-26 15:43:03 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 15:43:03 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-26 15:43:03 apiteststudy INFO     期望结果:true
+
+2017-11-26 15:43:03 apiteststudy INFO     响应内容:{"code":5041,"msg":"卡已经被绑定,无法绑定","success":false}
+2017-11-26 17:04:01 apiteststudy INFO      测试开始
+2017-11-26 17:04:01 apiteststudy INFO     加油卡号不存在 开始
+2017-11-26 17:04:01 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:04:01 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-26 17:04:01 apiteststudy INFO     期望结果:5013.0
+2017-11-26 17:04:01 apiteststudy INFO     加油卡充值 测试开始
+2017-11-26 17:04:01 apiteststudy INFO     充值成功 开始
+2017-11-26 17:04:01 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:04:01 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-26 17:04:01 apiteststudy INFO     期望结果:200.0
+2017-11-26 17:19:39 apiteststudy INFO      测试开始
+2017-11-26 17:19:39 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-26 17:19:39 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:19:39 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-26 17:19:39 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-26 17:19:39 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-26 17:19:39 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-26 17:19:39 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-26 17:19:39 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:19:39 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-26 17:19:39 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-26 17:19:39 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-26 17:19:39 apiteststudy INFO      测试开始
+2017-11-26 17:19:39 apiteststudy INFO     绑定成功 开始
+2017-11-26 17:19:39 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:19:39 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-26 17:19:39 apiteststudy INFO     期望结果:true
+
+2017-11-26 17:19:39 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-26 17:19:40 apiteststudy INFO      测试开始
+2017-11-26 17:19:40 apiteststudy INFO     加油卡号不存在 开始
+2017-11-26 17:19:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:19:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-26 17:19:40 apiteststudy INFO     期望结果:5013.0
+2017-11-26 17:19:40 apiteststudy INFO     加油卡充值 测试开始
+2017-11-26 17:19:40 apiteststudy INFO     充值成功 开始
+2017-11-26 17:19:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:19:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-26 17:19:40 apiteststudy INFO     期望结果:200.0
+2017-11-26 17:56:40 apiteststudy INFO      测试开始
+2017-11-26 17:56:40 apiteststudy INFO     错误卡号绑定失败 开始
+2017-11-26 17:56:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:56:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2017-11-26 17:56:40 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2017-11-26 17:56:40 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2017-11-26 17:56:40 apiteststudy INFO     绑定加油卡 测试开始
+2017-11-26 17:56:40 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2017-11-26 17:56:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:56:40 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2017-11-26 17:56:40 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2017-11-26 17:56:40 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2017-11-26 17:56:40 apiteststudy INFO      测试开始
+2017-11-26 17:56:40 apiteststudy INFO     绑定成功 开始
+2017-11-26 17:56:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:56:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2017-11-26 17:56:40 apiteststudy INFO     期望结果:true
+
+2017-11-26 17:56:40 apiteststudy INFO     响应内容:{"code":5010,"msg":"绑定成功","result":{"UserId":2017114046},"success":true}
+2017-11-26 17:56:40 apiteststudy INFO      测试开始
+2017-11-26 17:56:40 apiteststudy INFO     加油卡号不存在 开始
+2017-11-26 17:56:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:56:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2017-11-26 17:56:40 apiteststudy INFO     期望结果:5013.0
+2017-11-26 17:56:40 apiteststudy INFO     加油卡充值 测试开始
+2017-11-26 17:56:40 apiteststudy INFO     充值成功 开始
+2017-11-26 17:56:40 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2017-11-26 17:56:40 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2017-11-26 17:56:40 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:21:47 apiteststudy INFO      测试开始
+2018-03-24 19:21:47 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:21:47 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:21:47 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:21:47 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:21:47 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:21:47 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:21:47 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:21:47 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:21:47 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:21:47 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:21:47 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:21:47 apiteststudy INFO      测试开始
+2018-03-24 19:21:47 apiteststudy INFO     绑定成功 开始
+2018-03-24 19:21:47 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:21:47 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-24 19:21:48 apiteststudy INFO     期望结果:true
+
+2018-03-24 19:21:48 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:21:48 apiteststudy INFO      测试开始
+2018-03-24 19:21:48 apiteststudy INFO     加油卡号不存在 开始
+2018-03-24 19:21:48 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:21:48 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "1234451111",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:21:48 apiteststudy INFO     期望结果:5013.0
+2018-03-24 19:21:48 apiteststudy INFO     加油卡充值 测试开始
+2018-03-24 19:21:48 apiteststudy INFO     充值成功 开始
+2018-03-24 19:21:48 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:21:48 apiteststudy INFO     入参: {
+ "dataSourceId": "WkZC", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "66006",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:21:48 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:29:15 apiteststudy INFO      测试开始
+2018-03-24 19:29:15 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:29:15 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:29:15 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:29:15 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:29:15 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:29:15 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:29:15 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:29:15 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:29:15 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:29:15 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:29:16 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:29:16 apiteststudy INFO      测试开始
+2018-03-24 19:29:16 apiteststudy INFO     绑定成功 开始
+2018-03-24 19:29:16 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:29:16 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-24 19:29:16 apiteststudy INFO     期望结果:true
+
+2018-03-24 19:29:16 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:29:16 apiteststudy INFO      测试开始
+2018-03-24 19:29:16 apiteststudy INFO     加油卡号不存在 开始
+2018-03-24 19:29:16 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:29:16 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:29:16 apiteststudy INFO     期望结果:5013.0
+2018-03-24 19:29:17 apiteststudy INFO     加油卡充值 测试开始
+2018-03-24 19:29:17 apiteststudy INFO     充值成功 开始
+2018-03-24 19:29:17 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:29:17 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:29:17 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:33:49 apiteststudy INFO      测试开始
+2018-03-24 19:33:49 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:33:49 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:33:49 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:33:49 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:33:49 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:33:49 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:33:49 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:33:49 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:33:49 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:33:49 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:33:49 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:33:49 apiteststudy INFO      测试开始
+2018-03-24 19:33:49 apiteststudy INFO     绑定成功 开始
+2018-03-24 19:33:49 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:33:49 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-24 19:33:49 apiteststudy INFO     期望结果:true
+
+2018-03-24 19:33:49 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:33:50 apiteststudy INFO      测试开始
+2018-03-24 19:33:50 apiteststudy INFO     加油卡号不存在 开始
+2018-03-24 19:33:50 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:33:50 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:33:50 apiteststudy INFO     期望结果:5013.0
+2018-03-24 19:33:50 apiteststudy INFO     加油卡充值 测试开始
+2018-03-24 19:33:50 apiteststudy INFO     充值成功 开始
+2018-03-24 19:33:50 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:33:50 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:33:50 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:37:13 apiteststudy INFO      测试开始
+2018-03-24 19:37:13 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:37:13 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:37:13 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:37:13 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:37:13 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:37:13 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:37:13 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:37:13 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:37:13 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:37:13 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:37:13 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:37:13 apiteststudy INFO      测试开始
+2018-03-24 19:37:13 apiteststudy INFO     绑定成功 开始
+2018-03-24 19:37:13 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:37:13 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-24 19:37:13 apiteststudy INFO     期望结果:true
+
+2018-03-24 19:37:14 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:37:14 apiteststudy INFO      测试开始
+2018-03-24 19:37:14 apiteststudy INFO     加油卡号不存在 开始
+2018-03-24 19:37:14 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:37:14 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:37:14 apiteststudy INFO     期望结果:5013.0
+2018-03-24 19:37:14 apiteststudy INFO     加油卡充值 测试开始
+2018-03-24 19:37:14 apiteststudy INFO     充值成功 开始
+2018-03-24 19:37:14 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:37:14 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:37:14 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:41:49 apiteststudy INFO      测试开始
+2018-03-24 19:41:49 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:41:49 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:41:49 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:41:49 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:41:49 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:41:49 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:41:49 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:41:49 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:41:49 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:41:49 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:41:49 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:41:49 apiteststudy INFO      测试开始
+2018-03-24 19:41:49 apiteststudy INFO     绑定成功 开始
+2018-03-24 19:41:49 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:41:49 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-24 19:41:49 apiteststudy INFO     期望结果:true
+
+2018-03-24 19:41:50 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:41:50 apiteststudy INFO      测试开始
+2018-03-24 19:41:50 apiteststudy INFO     加油卡号不存在 开始
+2018-03-24 19:41:50 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:41:50 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:41:50 apiteststudy INFO     期望结果:5013.0
+2018-03-24 19:41:50 apiteststudy INFO     加油卡充值 测试开始
+2018-03-24 19:41:50 apiteststudy INFO     充值成功 开始
+2018-03-24 19:41:50 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:41:50 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:41:50 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:44:22 apiteststudy INFO      测试开始
+2018-03-24 19:44:22 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:44:22 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:44:22 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:44:22 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:44:22 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:44:22 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:44:22 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:44:22 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:44:22 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:44:22 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:44:23 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:44:23 apiteststudy INFO      测试开始
+2018-03-24 19:44:23 apiteststudy INFO     绑定成功 开始
+2018-03-24 19:44:23 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:44:23 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-24 19:44:23 apiteststudy INFO     期望结果:true
+
+2018-03-24 19:44:23 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:44:23 apiteststudy INFO      测试开始
+2018-03-24 19:44:23 apiteststudy INFO     加油卡号不存在 开始
+2018-03-24 19:44:23 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:44:23 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:44:23 apiteststudy INFO     期望结果:5013.0
+2018-03-24 19:44:24 apiteststudy INFO     加油卡充值 测试开始
+2018-03-24 19:44:24 apiteststudy INFO     充值成功 开始
+2018-03-24 19:44:24 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:44:24 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:44:24 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:54:58 apiteststudy INFO      测试开始
+2018-03-24 19:54:58 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:54:58 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:54:58 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:54:58 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:54:58 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:54:58 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:54:58 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:54:58 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:54:58 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:54:58 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:54:58 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-24 19:54:58 apiteststudy INFO      测试开始
+2018-03-24 19:54:58 apiteststudy INFO     绑定成功 开始
+2018-03-24 19:54:58 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:54:58 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-24 19:54:58 apiteststudy INFO     期望结果:true
+
+2018-03-24 19:54:58 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:54:59 apiteststudy INFO      测试开始
+2018-03-24 19:54:59 apiteststudy INFO     加油卡号不存在 开始
+2018-03-24 19:54:59 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:54:59 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:54:59 apiteststudy INFO     期望结果:5013.0
+2018-03-24 19:54:59 apiteststudy INFO     加油卡充值 测试开始
+2018-03-24 19:54:59 apiteststudy INFO     充值成功 开始
+2018-03-24 19:54:59 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:54:59 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-24 19:54:59 apiteststudy INFO     期望结果:200.0
+2018-03-24 19:57:15 apiteststudy INFO      测试开始
+2018-03-24 19:57:15 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-24 19:57:15 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:57:15 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-24 19:57:15 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-24 19:57:16 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-24 19:57:16 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-24 19:57:16 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-24 19:57:16 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-24 19:57:16 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-24 19:57:16 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-24 19:57:16 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-25 10:47:13 apiteststudy INFO     this is test
+2018-03-25 15:53:04 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-25 15:53:04 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-25 15:53:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 15:53:04 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-25 15:53:04 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-25 16:34:52 apiteststudy INFO      测试开始
+2018-03-25 16:34:52 apiteststudy INFO     加油卡号不存在 开始
+2018-03-25 16:34:52 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 16:34:52 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-25 16:34:52 apiteststudy INFO     期望结果:5013.0
+2018-03-25 16:34:52 apiteststudy INFO     加油卡充值 测试开始
+2018-03-25 16:34:52 apiteststudy INFO     充值成功 开始
+2018-03-25 16:34:52 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 16:34:52 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-25 16:34:52 apiteststudy INFO     期望结果:200.0
+2018-03-25 16:52:04 apiteststudy INFO      测试开始
+2018-03-25 16:52:04 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-25 16:52:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 16:52:04 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-25 16:52:04 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-25 16:52:04 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-25 16:52:04 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-25 16:52:04 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-25 16:52:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 16:52:04 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-25 16:52:04 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-25 16:52:04 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-25 16:52:04 apiteststudy INFO      测试开始
+2018-03-25 16:52:04 apiteststudy INFO     绑定成功 开始
+2018-03-25 16:52:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 16:52:04 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-03-25 16:52:04 apiteststudy INFO     期望结果:true
+
+2018-03-25 16:52:05 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-25 16:52:05 apiteststudy INFO      测试开始
+2018-03-25 16:52:05 apiteststudy INFO     加油卡号不存在 开始
+2018-03-25 16:52:05 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 16:52:05 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-25 16:52:05 apiteststudy INFO     期望结果:5013.0
+2018-03-25 16:52:05 apiteststudy INFO     加油卡充值 测试开始
+2018-03-25 16:52:05 apiteststudy INFO     充值成功 开始
+2018-03-25 16:52:05 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 16:52:05 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-03-25 16:52:05 apiteststudy INFO     期望结果:200.0
+2018-03-25 17:41:36 apiteststudy INFO      测试开始
+2018-03-25 17:41:36 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-25 17:41:36 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 17:41:36 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-25 17:41:36 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-25 17:41:36 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-25 17:41:36 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-25 17:41:36 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-25 17:41:36 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 17:41:36 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-25 17:41:36 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-25 17:41:36 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-03-25 17:44:18 apiteststudy INFO      测试开始
+2018-03-25 17:44:18 apiteststudy INFO     错误卡号绑定失败 开始
+2018-03-25 17:44:18 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 17:44:18 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-03-25 17:44:18 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-03-25 17:44:18 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-03-25 17:44:18 apiteststudy INFO     绑定加油卡 测试开始
+2018-03-25 17:44:18 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-03-25 17:44:18 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-03-25 17:44:18 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-03-25 17:44:18 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-03-25 17:44:18 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-08-07 20:32:04 apiteststudy INFO      测试开始
+2018-08-07 20:32:04 apiteststudy INFO     错误卡号绑定失败 开始
+2018-08-07 20:32:04 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:04 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-08-07 20:32:04 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-08-07 20:32:05 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-08-07 20:32:05 apiteststudy INFO     绑定加油卡 测试开始
+2018-08-07 20:32:05 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-08-07 20:32:05 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:05 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-08-07 20:32:05 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-08-07 20:32:05 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-08-07 20:32:05 apiteststudy INFO      测试开始
+2018-08-07 20:32:05 apiteststudy INFO     绑定成功 开始
+2018-08-07 20:32:05 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:05 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-08-07 20:32:05 apiteststudy INFO     期望结果:true
+
+2018-08-07 20:32:05 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-08-07 20:32:05 apiteststudy INFO      测试开始
+2018-08-07 20:32:05 apiteststudy INFO     加油卡号不存在 开始
+2018-08-07 20:32:05 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:05 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-08-07 20:32:05 apiteststudy INFO     期望结果:5013.0
+2018-08-07 20:32:05 apiteststudy INFO     加油卡充值 测试开始
+2018-08-07 20:32:05 apiteststudy INFO     充值成功 开始
+2018-08-07 20:32:05 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:05 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-08-07 20:32:05 apiteststudy INFO     期望结果:200.0
+2018-08-07 20:32:20 apiteststudy INFO      测试开始
+2018-08-07 20:32:20 apiteststudy INFO     错误卡号绑定失败 开始
+2018-08-07 20:32:20 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:20 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "zzddd111"
+ }
+}
+2018-08-07 20:32:20 apiteststudy INFO     期望结果:{
+    "code": 5013, 
+    "msg": "加油卡号不存在", 
+    "success": false
+}
+2018-08-07 20:32:21 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-08-07 20:32:21 apiteststudy INFO     绑定加油卡 测试开始
+2018-08-07 20:32:21 apiteststudy INFO     不存在第三方编号绑定失败 开始
+2018-08-07 20:32:21 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:21 apiteststudy INFO     入参: {
+    "dataSourceId": "111",
+    "methodId": "01A",
+    "cardUser": {
+        "userName": "longteng",
+        "idType": "1",
+        "idNumber": "longtengtest"
+    },
+    "cardInfo": {
+        "cardNumber": "12345"
+    }
+}
+2018-08-07 20:32:21 apiteststudy INFO     期望结果:{
+    "code": 100, 
+    "msg": "对不起,您的第三方机构无权限访问该接口", 
+    "success": false
+}
+2018-08-07 20:32:21 apiteststudy INFO     响应内容:{"code":100,"msg":"对不起,您的第三方机构无权限访问该接口","success":false}
+2018-08-07 20:32:21 apiteststudy INFO      测试开始
+2018-08-07 20:32:21 apiteststudy INFO     绑定成功 开始
+2018-08-07 20:32:21 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:21 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "01A",
+ "CardUser": {
+  "userName": "jiaminqiang",
+  "idType": "1",
+  "idNumber": "zzdr111111"
+ },
+ "CardInfo": {
+  "cardNumber": "111111"
+ }
+}
+2018-08-07 20:32:21 apiteststudy INFO     期望结果:true
+
+2018-08-07 20:32:21 apiteststudy INFO     响应内容:{"code":5013,"msg":"加油卡号不存在","success":false}
+2018-08-07 20:32:22 apiteststudy INFO      测试开始
+2018-08-07 20:32:22 apiteststudy INFO     加油卡号不存在 开始
+2018-08-07 20:32:22 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:22 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "2222222222",
+  "cardBalance": "50"
+ }
+}
+2018-08-07 20:32:22 apiteststudy INFO     期望结果:5013.0
+2018-08-07 20:32:22 apiteststudy INFO     加油卡充值 测试开始
+2018-08-07 20:32:22 apiteststudy INFO     充值成功 开始
+2018-08-07 20:32:22 apiteststudy INFO     url: http://115.28.108.130:8080/gasStation/process
+2018-08-07 20:32:22 apiteststudy INFO     入参: {
+ "dataSourceId": "bHRz", 
+ "methodId": "03A",
+ "CardInfo": {
+  "cardNumber": "22222222",
+  "cardBalance": "50"
+ }
+}
+2018-08-07 20:32:22 apiteststudy INFO     期望结果:200.0

@@ -1,43 +1,42 @@
+import logging
 import pymysql
-import sys
-sys.path.append("..")
+from config import config
 
-from config.config import *
 
-def get_db_conn():
-    conn = pymysql.connect(host=db_host,port=db_port,user=db_user,password=db_password, db=db)
-    return conn
+def get_db_con():
+    con = pymysql.connect(host=config.host, port=config.port,
+                        user=config.user, passwd=config.password,
+                        db=config.database)
+
+    return con
+
 
 def query_db(sql):
-    logging.debug(sql)
-    conn = get_db_conn()
-    cur = conn.cursor()
-    cur.execute(sql)
-    result = cur.fetchall()
-    logging.debug(result)
-    return result
+    con = get_db_con()
+    cursor = con.cursor()
+    cursor.execute(sql)
+    data = cursor.fetchall()
+    cursor.close()
+    con.close()
+    return data
+
 
 def change_db(sql):
-    logging.debug(sql)
-    conn = get_db_conn()
-    cur = conn.cursor()
-    cur.execute(sql)
-    conn.commit()
-
-def add_user(name, password):
-    sql = "insert into user (name,passwd) values ('{}','{}')".format(name,password)
-    change_db(sql)
-
-def check_user(name):
-    sql = "select * from user where name = '{}'".format(name)
-    return query_db(sql)
-
-def del_user(name):
-    sql = 'delete from user where name = "{}"'.format(name)
-    change_db(sql)
+    con = get_db_con()
+    cursor = con.cursor()
+    try:
+        cursor.execute(sql)
+        logging.info(sql)
+        con.commit()
+    except Exception as e:
+        con.rollback()
+        logging.error(e.message)
 
 if __name__ == "__main__":
-    # add_user('abc','123456')
-    del_user('abc')
-    print(check_user('abc'))
+    sql = "show tables"
+    print(change_db(sql))
+    #print(query_db(sql))
+
+
+
 
