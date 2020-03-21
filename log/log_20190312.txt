@@ -1,0 +1,79 @@
+[2019-03-12 09:22:21] INFO [log_case_info: case_log.py, 10] 测试用例：登录接口
+[2019-03-12 09:22:21] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/login
+[2019-03-12 09:22:21] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 09:22:21] INFO [log_case_info: case_log.py, 13] 请求头:{"Content-Type":"application/json;charset=UTF-8"}
+[2019-03-12 09:22:21] INFO [log_case_info: case_log.py, 14] 请求体:{
+  "password": "123456",
+  "username": "admin"
+}
+[2019-03-12 09:22:21] INFO [log_case_info: case_log.py, 15] 期望结果：成功
+[2019-03-12 09:22:21] INFO [log_case_info: case_log.py, 16] 实际结果：成功
+[2019-03-12 09:50:50] INFO [log_case_info: case_log.py, 10] 测试用例：登录接口
+[2019-03-12 09:50:50] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/login
+[2019-03-12 09:50:50] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 09:50:50] INFO [log_case_info: case_log.py, 13] 请求头:{"Content-Type":"application/json;charset=UTF-8"}
+[2019-03-12 09:50:50] INFO [log_case_info: case_log.py, 14] 请求体:{
+  "password": "123456",
+  "username": "admin"
+}
+[2019-03-12 09:50:50] INFO [log_case_info: case_log.py, 15] 期望结果：成功
+[2019-03-12 09:50:50] INFO [log_case_info: case_log.py, 16] 实际结果：成功
+[2019-03-12 09:51:55] INFO [log_case_info: case_log.py, 10] 测试用例：登录接口
+[2019-03-12 09:51:55] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/login
+[2019-03-12 09:51:55] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 09:51:55] INFO [log_case_info: case_log.py, 13] 请求头:{"Content-Type":"application/json;charset=UTF-8"}
+[2019-03-12 09:51:55] INFO [log_case_info: case_log.py, 14] 请求体:{
+  "password": "123456",
+  "username": "admin"
+}
+[2019-03-12 09:51:55] INFO [log_case_info: case_log.py, 15] 期望结果：成功
+[2019-03-12 09:51:55] INFO [log_case_info: case_log.py, 16] 实际结果：成功
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 10] 测试用例：登录接口
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/login
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 13] 请求头:{"Content-Type":"application/json;charset=UTF-8"}
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 14] 请求体:{
+  "password": "123456",
+  "username": "admin"
+}
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 15] 期望结果：成功
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 16] 实际结果：成功
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 10] 测试用例：订单详情
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/order/getOrderInfo
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 13] 请求头:{"token":""}
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 14] 请求体:{
+    "msg": "成功",
+    "code": "0000",
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 15] 期望结果：<Response [200]>
+[2019-03-12 09:52:18] INFO [log_case_info: case_log.py, 16] 实际结果：invalid token
+[2019-03-12 10:34:31] INFO [log_case_info: case_log.py, 10] 测试用例：登录接口
+[2019-03-12 10:34:31] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/login
+[2019-03-12 10:34:31] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 10:34:31] INFO [log_case_info: case_log.py, 13] 请求头:{"Content-Type":"application/json;charset=UTF-8"}
+[2019-03-12 10:34:31] INFO [log_case_info: case_log.py, 14] 请求体:{
+  "password": "123456",
+  "username": "admin"
+}
+[2019-03-12 10:34:31] INFO [log_case_info: case_log.py, 15] 期望结果：成功
+[2019-03-12 10:34:31] INFO [log_case_info: case_log.py, 16] 实际结果：成功
+[2019-03-12 10:51:03] INFO [log_case_info: case_log.py, 10] 测试用例：登录接口
+[2019-03-12 10:51:03] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/login
+[2019-03-12 10:51:03] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 10:51:03] INFO [log_case_info: case_log.py, 13] 请求头:{"Content-Type":"application/json;charset=UTF-8"}
+[2019-03-12 10:51:03] INFO [log_case_info: case_log.py, 14] 请求体:{
+  "password": "123456",
+  "username": "admin"
+}
+[2019-03-12 10:51:03] INFO [log_case_info: case_log.py, 15] 期望结果：成功
+[2019-03-12 10:51:03] INFO [log_case_info: case_log.py, 16] 实际结果：成功
+[2019-03-12 10:51:11] INFO [log_case_info: case_log.py, 10] 测试用例：登录接口
+[2019-03-12 10:51:11] INFO [log_case_info: case_log.py, 11] url：http://192.168.1.171:8083/sys/login
+[2019-03-12 10:51:11] INFO [log_case_info: case_log.py, 12] 请求参数：None
+[2019-03-12 10:51:11] INFO [log_case_info: case_log.py, 13] 请求头:{"Content-Type":"application/json;charset=UTF-8"}
+[2019-03-12 10:51:11] INFO [log_case_info: case_log.py, 14] 请求体:{
+  "password": "123456",
+  "username": "admin"
+}
+[2019-03-12 10:51:11] INFO [log_case_info: case_log.py, 15] 期望结果：成功
+[2019-03-12 10:51:11] INFO [log_case_info: case_log.py, 16] 实际结果：成功
