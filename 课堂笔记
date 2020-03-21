@@ -1,0 +1,96 @@
+一条健壮的用例
+
+
+1. 环境准备/环境检查
+2. 执行测试
+3. 断言
+4. 清理
+
+-------------------------------------------------------------------------------------------------
+@unittest.skip("msg") 无条件跳过
+@unittest.skipIf(条件, "msg")  满足条件是跳过
+@unittest.skipUnless(条件, "msg") 不满足条件时跳过
+-------------------------------------------------------------------------------------------------
+用例的组织
+TestSuite 测试套件
+
+# from 第3天.test_user_login import TestUserLogin
+from 第3天 import test_user_login
+
+# 新建TestSuite
+# suite = unittest.TestSuite()
+# 添加用例
+# suite.addTest(TestUserLogin('test_user_login_normal'))
+# suite.addTests([TestUserLogin('test_user_login_normal'),
+#                 TestUserLogin('test_user_login_password_wrong')])
+
+# TestLoader 用例加载器
+# 1. 遍历所有用例
+# suite = unittest.defaultTestLoader.discover("")
+# 2. 添加模块所有用例
+loader = unittest.TestLoader()
+suite = loader.loadTestsFromModule(test_user_login)
+# 3. 添加测试类中所有用例
+suite = loader.loadTestsFromTestCase(test_user_login.TestA)
+# 4. 按名称添加,不需要导入
+suite = loader.loadTestsFromName("第3天.test_user_login.TestA.test_a")
+
+if __name__ == "__main__":
+    print(suite)
+    print(suite.countTestCases())
+    # 执行suite
+    unittest.TextTestRunner(verbosity=2).run(suite)
+
+# 练习
+-------------------------------------------------------------------------------------------------
+生成HTML报告
+from 第3天.HTMLTestRunner_PY3 import HTMLTestRunner
+with open("report.html", "wb") as f:  # 二进制写模式
+    HTMLTestRunner(stream=f, title="User接口测试报告", description="测试报告").run(all)
+
+-------------------------------------------------------------------------------------------------
+从excel读取数据
+# 1. 导入 xlrd
+import xlrd
+
+# 2. 打开excel (work_book)
+excel = xlrd.open_workbook("../data/data.xlsx")
+
+# 3. 指定工作表
+sheet = excel.sheet_by_name("登录")
+sheet = excel.sheet_by_index(0)
+
+# 4. 读取信息
+print(sheet.nrows)  # 有效数据行 数
+print(sheet.ncols)  # 有效数据列 数
+
+print(sheet.row_values(0))  # 打印第一行数据
+print(sheet.row_values(1))  # 打印第一行数据
+
+print(sheet.cell(1,0).value)  # 打印 指定单元格数据
+
+# 练习1: 打印所有 注册模块的用例 (不要标题行)
+sheet2 = excel.sheet_by_name("注册")
+for i in range(1, sheet2.nrows):
+    print(sheet2.row_values(i))
+
+# 练习2
+# def  read_data(sheet, casename):
+#
+#     return case_data
+#
+#  case_data = read_data("注册", "test_user_reg_normal")
+-------------------------------------------------------------------------------------------------
+日志的使用
+
+level 日志级别
+critical: 严重问题
+error: 出错
+warning: 警告
+info: 正常输出消息
+debug: 调试信息
+
+
+logging.DEBUG
+
+logging.debug()
