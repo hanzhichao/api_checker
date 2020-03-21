@@ -1,0 +1,275 @@
+2018-05-14 21:38:12,940 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 21:38:12,957 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+2018-05-14 21:38:28,964 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 21:38:28,971 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+2018-05-14 21:38:28,972 - config_http.py[line:65] - DEBUG: {"name": "\"\u5f20\u4e09\"", "passwd": "\"123456\""}
+2018-05-14 21:38:58,035 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 21:38:58,043 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+2018-05-14 21:38:58,045 - config_http.py[line:65] - DEBUG: {"name": "\"张三\"", "passwd": "\"123456\""}
+2018-05-14 21:57:16,631 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 21:57:16,631 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 21:57:16,640 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 21:57:16,640 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 21:57:16,641 - config_http.py[line:65] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 21:57:16,641 - config_http.py[line:65] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:16:31,615 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:16:31,615 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:16:31,627 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:16:31,627 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:16:31,629 - config_http.py[line:65] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:16:31,629 - config_http.py[line:65] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:33:42,326 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:33:42,334 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+2018-05-14 22:33:42,335 - config_http.py[line:68] - DEBUG: {"name": "\"张三\"", "passwd": "\"123456\""}
+2018-05-14 22:38:42,250 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:38:42,250 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:38:42,250 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:38:42,250 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:38:42,276 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:38:42,276 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:38:42,276 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:38:42,276 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:38:42,278 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:38:42,278 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:38:42,278 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:38:42,278 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:39:15,672 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:39:15,672 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:39:15,672 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:39:15,672 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:39:15,679 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:39:15,679 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:39:15,679 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:39:15,679 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:39:15,682 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:39:15,682 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:39:15,682 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:39:15,682 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:58:27,560 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:58:27,560 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:58:27,560 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:58:27,560 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 22:58:27,578 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:58:27,578 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:58:27,578 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:58:27,578 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 22:58:27,580 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:58:27,580 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:58:27,580 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 22:58:27,580 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:10:49,236 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:10:49,236 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:10:49,250 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:10:49,250 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:10:49,252 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:10:49,252 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:19:35,036 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:19:35,036 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:19:35,057 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:19:35,057 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:19:35,059 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:19:35,059 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:23:02,493 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:23:02,493 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:23:02,511 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:23:02,511 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:23:02,514 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:23:02,514 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:24:27,545 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,545 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,545 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,545 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,552 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:24:27,552 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:24:27,552 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:24:27,552 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:24:27,555 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:24:27,555 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:24:27,555 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:24:27,555 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:24:27,566 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,566 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,566 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,566 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:24:27,589 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:24:27,589 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:24:27,589 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:24:27,589 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:24:27,590 - config_http.py[line:68] - DEBUG: {"name": "%(random_name)", "passwd": "123456"}
+2018-05-14 23:24:27,590 - config_http.py[line:68] - DEBUG: {"name": "%(random_name)", "passwd": "123456"}
+2018-05-14 23:24:27,590 - config_http.py[line:68] - DEBUG: {"name": "%(random_name)", "passwd": "123456"}
+2018-05-14 23:24:27,590 - config_http.py[line:68] - DEBUG: {"name": "%(random_name)", "passwd": "123456"}
+2018-05-14 23:35:42,391 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:35:42,391 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:35:42,396 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:35:42,396 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:35:42,398 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:35:42,398 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:37:25,753 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:37:25,753 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:37:25,769 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:37:25,769 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:37:25,770 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:37:25,770 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:46:10,254 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:46:10,254 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:46:10,254 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:46:10,254 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:46:10,262 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:46:10,262 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:46:10,262 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:46:10,262 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:46:10,264 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:46:10,264 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:46:10,264 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:46:10,264 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:47:46,177 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:47:46,177 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:47:46,182 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:47:46,182 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:47:46,183 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:47:46,183 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:47:57,278 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:47:57,278 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:47:57,278 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:47:57,278 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:47:57,285 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:47:57,285 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:47:57,285 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:47:57,285 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:47:57,287 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:47:57,287 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:47:57,287 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:47:57,287 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:48:45,547 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:48:45,547 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:48:45,552 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:48:45,552 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:48:45,553 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:48:45,553 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:49:17,277 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,277 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,277 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,277 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,284 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:49:17,284 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:49:17,284 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:49:17,284 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:49:17,286 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:49:17,286 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:49:17,286 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:49:17,286 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:49:17,298 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,298 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,298 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,298 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:49:17,300 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:49:17,300 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:49:17,300 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:49:17,300 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:49:17,301 - config_http.py[line:68] - DEBUG: {"name": "郑鈖", "passwd": "123456"}
+2018-05-14 23:49:17,301 - config_http.py[line:68] - DEBUG: {"name": "郑鈖", "passwd": "123456"}
+2018-05-14 23:49:17,301 - config_http.py[line:68] - DEBUG: {"name": "郑鈖", "passwd": "123456"}
+2018-05-14 23:49:17,301 - config_http.py[line:68] - DEBUG: {"name": "郑鈖", "passwd": "123456"}
+2018-05-14 23:51:52,479 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:51:52,479 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:51:52,485 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:51:52,485 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:51:52,486 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:51:52,486 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:54:50,185 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:50,185 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:50,190 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:54:50,190 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:54:50,191 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:54:50,191 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:54:57,899 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,899 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,899 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,899 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,907 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:54:57,907 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:54:57,907 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:54:57,907 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:54:57,909 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:54:57,909 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:54:57,909 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:54:57,909 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:54:57,920 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,920 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,920 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,920 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:54:57,922 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:54:57,922 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:54:57,922 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:54:57,922 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:54:57,923 - config_http.py[line:68] - DEBUG: {"name": "郑絚", "passwd": "123456"}
+2018-05-14 23:54:57,923 - config_http.py[line:68] - DEBUG: {"name": "郑絚", "passwd": "123456"}
+2018-05-14 23:54:57,923 - config_http.py[line:68] - DEBUG: {"name": "郑絚", "passwd": "123456"}
+2018-05-14 23:54:57,923 - config_http.py[line:68] - DEBUG: {"name": "郑絚", "passwd": "123456"}
+2018-05-14 23:55:28,602 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,602 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,602 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,602 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,608 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:55:28,608 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:55:28,608 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:55:28,608 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:55:28,611 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:55:28,611 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:55:28,611 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:55:28,611 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:55:28,624 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,624 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,624 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,624 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:55:28,626 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:55:28,626 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:55:28,626 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:55:28,626 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:55:28,627 - config_http.py[line:68] - DEBUG: {"name": "郑剈", "passwd": "123456"}
+2018-05-14 23:55:28,627 - config_http.py[line:68] - DEBUG: {"name": "郑剈", "passwd": "123456"}
+2018-05-14 23:55:28,627 - config_http.py[line:68] - DEBUG: {"name": "郑剈", "passwd": "123456"}
+2018-05-14 23:55:28,627 - config_http.py[line:68] - DEBUG: {"name": "郑剈", "passwd": "123456"}
+2018-05-14 23:55:28,627 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:55:28,627 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:55:28,627 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:55:28,627 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:56:54,479 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:54,479 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:54,485 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:56:54,485 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:56:54,486 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:56:54,486 - config_http.py[line:68] - DEBUG: {"name": "柳柳", "passwd": "123456"}
+2018-05-14 23:56:59,408 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,408 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,408 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,408 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,415 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:56:59,415 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:56:59,415 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:56:59,415 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-05-14 23:56:59,417 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:56:59,417 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:56:59,417 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:56:59,417 - config_http.py[line:68] - DEBUG: {"name": "张三", "passwd": "123456"}
+2018-05-14 23:56:59,429 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,429 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,429 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,429 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): 127.0.0.1
+2018-05-14 23:56:59,431 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:56:59,431 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:56:59,431 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:56:59,431 - connectionpool.py[line:396] - DEBUG: http://127.0.0.1:5000 "POST /api/user/reg/ HTTP/1.1" 400 192
+2018-05-14 23:56:59,433 - config_http.py[line:68] - DEBUG: {"name": "周酶", "passwd": "123456"}
+2018-05-14 23:56:59,433 - config_http.py[line:68] - DEBUG: {"name": "周酶", "passwd": "123456"}
+2018-05-14 23:56:59,433 - config_http.py[line:68] - DEBUG: {"name": "周酶", "passwd": "123456"}
+2018-05-14 23:56:59,433 - config_http.py[line:68] - DEBUG: {"name": "周酶", "passwd": "123456"}
+2018-05-14 23:56:59,434 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:56:59,434 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:56:59,434 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:56:59,434 - case.py[line:35] - DEBUG: 400
+2018-05-14 23:56:59,434 - case.py[line:36] - DEBUG: {'Content-Type': 'application/json'}
+2018-05-14 23:56:59,434 - case.py[line:36] - DEBUG: {'Content-Type': 'application/json'}
+2018-05-14 23:56:59,434 - case.py[line:36] - DEBUG: {'Content-Type': 'application/json'}
+2018-05-14 23:56:59,434 - case.py[line:36] - DEBUG: {'Content-Type': 'application/json'}
