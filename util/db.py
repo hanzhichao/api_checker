@@ -1,3 +1,0 @@
-class DB:
-	host=
-	password=

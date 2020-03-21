@@ -1,7 +1,0 @@
-{
-  "uri": "/api/Basic/PriceSystemV2/priceDetail/",
-  "req": {
-    "price_id": "759",
-    "is_ratio": 0
-  }
-}

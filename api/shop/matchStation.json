@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "uri": "/api/Istation/matchStation",
+  "data": {
+    "lng": "116.123",
+    "lat": "39.890358"
+  }
+}
