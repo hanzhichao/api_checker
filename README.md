@@ -1,9 +1,9 @@
 # Api Checker
-在车满满设计的接口框架-未完成
+坚果接口测试课程讲授的接口框架-缺少报告生成
 
 ## 特性
-- data api test_case分层
-- api使用json
+- config配置文件解析
+- 数据库解析
 - data使用excel
-- 使用了用例基础类
-- 使用optparser解析命令行参数
+- 日志
+- 发送邮件

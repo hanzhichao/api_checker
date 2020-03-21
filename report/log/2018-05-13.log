@@ -1,0 +1,11 @@
+2018-05-13 17:18:03,927 - DEBUG: hello
+2018-05-13 17:18:11,380 - log.py[line:52] - DEBUG: hello
+2018-05-13 17:18:36,721 - DEBUG - log.py - <module> - 53 - hello
+2018-05-13 17:18:49,280 - log.py[line:53] - DEBUG: hello
+2018-05-13 17:19:06,880 log.py[line:53] - DEBUG: hello
+2018-05-13 17:21:13,129 log.py[line:48] - DEBUG: hello
+2018-05-13 17:21:21,552 log.py[line:49] - DEBUG: hello
+2018-05-13 18:08:36,555 e_mail.py[line:64] - ERROR: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2018-05-13 18:11:29,232 e_mail.py[line:65] - ERROR: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2018-05-13 18:11:59,245 e_mail.py[line:65] - ERROR: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2018-05-13 18:35:45,030 e_mail.py[line:40] - INFO: 测试报告邮件已发送
