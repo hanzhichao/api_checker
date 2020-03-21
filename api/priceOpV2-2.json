@@ -1,0 +1,14 @@
+{
+  "uri": "/api/Basic/PriceSystemV2/priceOpV2/",
+  "req": {
+    "type": "PInfo",
+    "op_type": "add",
+    "obj_info": {
+      "state": 1,
+      "price_name": "标杆价",
+      "price_type": "auth_basic_pt",
+      "fee_name": "标杆价",
+      "pm_id": "100"
+    }
+  }
+}

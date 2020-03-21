@@ -1,0 +1,198 @@
+{
+  "uri": "/api/Order/Order/coHandle/",
+  "req": {
+    "goods": [
+      {
+        "name": "电脑",
+        "pkg": "",
+        "num": "1"
+      }
+    ],
+    "order_num": "92462",
+    "goods_num": "92462",
+    "billing_date": "2017-05-17 11:46:22",
+    "order_creator_name": "张德洲",
+    "co_freight_f": "400",
+    "pay_billing": 400,
+    "pay_billing_paid": true,
+    "co_delivery_fee": 0,
+    "arr_point": 17,
+    "tax_inc": false,
+    "total_price": 400,
+    "pay_mode": "pay_billing",
+    "mgr_id": 313,
+    "delivery_mode": "self_pick",
+    "receipt_cat": "receipt",
+    "receipt_n": "0",
+    "trsp_mode": "",
+    "cor_name": "发货韩",
+    "cor_mobile": "15010181267",
+    "cor_phone": "",
+    "cor_id_num": "4",
+    "cor_addr_info": {
+      "show_val": "",
+      "province": "",
+      "city": "",
+      "district": "",
+      "adcode": "",
+      "poi": ""
+    },
+    "cee_name": "收货韩",
+    "cee_mobile": "18010181267",
+    "cee_phone": "",
+    "cee_id_num": "5",
+    "cee_addr_info": {
+      "show_val": ""
+    },
+    "route": [
+      {
+        "company_id": 16,
+        "node_name": "德州",
+        "node_type_ex": 1,
+        "mile": 0,
+        "route_time": 0,
+        "poi": "116.332789,37.471175",
+        "node_type": 1,
+        "id": 16,
+        "key": 16,
+        "parent": 15,
+        "name": "德州网点",
+        "type": 3,
+        "state": 2,
+        "short_name": "德州",
+        "display": "德州网点",
+        "distribute_id": 15,
+        "company_code": "dz",
+        "address": {
+          "show_val": "德州市德城区德州学院",
+          "province": "山东省",
+          "city": "德州市",
+          "district": "德城区",
+          "adcode": "371402",
+          "poi": "116.332789,37.471175"
+        },
+        "leader_name": "德州负责人",
+        "telephone": "12345654"
+      },
+      {
+        "company_id": 15,
+        "node_name": "济南分拨中心",
+        "node_type": 1,
+        "node_type_ex": 1,
+        "mile": 0,
+        "route_time": 0,
+        "poi": "116.961446,36.713498",
+        "id": 15,
+        "group_id": 556,
+        "company_name": "济南分拨中心",
+        "company_code": "jnf",
+        "account_code": 3,
+        "short_name": "济南分拨中心",
+        "type": 5,
+        "sup_id": 19,
+        "distribute_id": 0,
+        "state": 2,
+        "name": "济南分拨中心",
+        "telephone": "13901234543",
+        "phone": "4001663456",
+        "complain_phone": "",
+        "service_phone": "",
+        "province": "山东省",
+        "city": "济南市",
+        "area": "天桥区",
+        "town": "",
+        "address": {
+          "show_val": "济南市天桥区三志物流园",
+          "province": "山东省",
+          "city": "济南市",
+          "district": "天桥区",
+          "adcode": "370105",
+          "poi": "116.961446,36.713498"
+        },
+        "address_remark": "南区",
+        "dispatch_zone": "[{\"show_val\":\"济南市\",\"province\":\"山东省\",\"city\":\"济南市\",\"district\":\"历下区\",\"adcode\":\"370102\",\"poi\":\"117.000923,36.675807\"}]",
+        "remark": "",
+        "logo": "",
+        "reserved": null,
+        "pay_password": null,
+        "lock_amount": "0.00",
+        "alarm_amount": "0.00",
+        "invest_account": "0.0000",
+        "withdraw_limit": "0.00",
+        "status": 1,
+        "disable_time": "2017-03-11 09:13:35",
+        "create_by": null,
+        "update_by": null,
+        "update_time": "2017-03-11 09:13:35",
+        "create_time": "2017-02-28 09:00:37",
+        "key": 15,
+        "parent": 19,
+        "display": "济南分拨中心",
+        "leader_name": "济南负责人"
+      },
+      {
+        "company_id": 17,
+        "node_name": "聊城",
+        "node_type_ex": 1,
+        "mile": 0,
+        "route_time": 0,
+        "poi": "115.985414,36.455994",
+        "addr": [],
+        "node_type": 1,
+        "id": 17,
+        "key": 17,
+        "parent": 15,
+        "name": "聊城网点",
+        "type": 3,
+        "state": 2,
+        "short_name": "聊城",
+        "display": "聊城网点",
+        "distribute_id": 15,
+        "company_code": "LC",
+        "address": {
+          "show_val": "聊城市东昌府区聊城市人民政府",
+          "province": "山东省",
+          "city": "聊城市",
+          "district": "东昌府区",
+          "adcode": "371502",
+          "poi": "115.985414,36.455994"
+        },
+        "leader_name": "聊城",
+        "telephone": "15436574"
+      }
+    ],
+    "route_nick": "德州->济南分拨中心->聊城",
+    "route_id": 7,
+    "arr_point_modify": "聊城",
+    "start_info": {
+      "show_val": "德州市",
+      "province": "山东省",
+      "city": "德州市",
+      "district": "德城区",
+      "adcode": "371402",
+      "poi": "116.332789,37.471175"
+    },
+    "point_cost_info": [
+      {
+        "tax_r": "6",
+        "reference": 1
+      }
+    ],
+    "std_cost": [
+      {
+        "test": "key",
+        "reference": 1
+      }
+    ],
+    "cost_info": [
+      {
+        "test": "key",
+        "reference": 1
+      }
+    ],
+    "trans_info": [],
+    "sys_order_num": "92462",
+    "manualGNum": false,
+    "msgTypeList": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "uri": "/api/Table/Search/priceListV2/",
+  "req": {
+    "category": "PMode",
+    "sort": {},
+    "page_num": 1,
+    "page_size": 100,
+    "cid": "",
+    "filter": {},
+    "fetch_mode": "body",
+    "query": {}
+  }
+}

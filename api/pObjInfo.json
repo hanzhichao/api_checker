@@ -1,0 +1,7 @@
+{
+  "uri": "/api/Basic/PriceSystemV2/pObjInfo/",
+  "req": {
+    "type": "PMode",
+    "op_type": "add"
+  }
+}

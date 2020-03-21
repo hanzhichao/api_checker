@@ -1,0 +1,90 @@
+{
+  "uri": "/api/Basic/PriceSystemV2/priceDetailOp/",
+  "req": {
+    "op_type": "add",
+    "price_id": "759",
+    "is_ratio": 0,
+    "price_infos": {
+      "标杆价": {
+        "attr": {
+          "price_mode": 3,
+          "weight_value": 1,
+          "fee_value": 1,
+          "weight_range": []
+        },
+        "values": [
+          {
+            "id": 4241,
+            "pinfo_id": 759,
+            "fee_name": "标杆价",
+            "group_id": 556,
+            "point_id": 0,
+            "start_pid": 3987,
+            "end_pid": 3988,
+            "start_zone": "",
+            "start_province": "",
+            "start_city": "",
+            "start_area": "",
+            "start_town": "",
+            "end_zone": "",
+            "end_province": "",
+            "end_city": "",
+            "end_area": "",
+            "end_town": "",
+            "charge_id": 0,
+            "pz_id": 0,
+            "pz_detail_id": 0,
+            "product_line_id": 0,
+            "highest": "100",
+            "price": "0.00",
+            "lowest": "10",
+            "point_price": "0.00",
+            "ext": {
+              "weight": {
+                "0公斤以上": [
+                  "",
+                  "",
+                  "1"
+                ]
+              },
+              "volume": {
+                "0方以上": [
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              "mile": [],
+              "is_car": []
+            },
+            "status": 1,
+            "create_time": "2017-08-08 11:53:43",
+            "update_time": "2017-08-08 11:57:51",
+            "weight": {
+              "0公斤以上": [
+                "5",
+                "6",
+                "1"
+              ]
+            },
+            "volume": {
+              "0方以上": [
+                "",
+                "",
+                ""
+              ]
+            },
+            "mile": [],
+            "is_car": [],
+            "weight|0|0": "5",
+            "weight|0|1": "6",
+            "weight|0|2": "1",
+            "volume|0|0": "",
+            "volume|0|1": "",
+            "volume|0|2": ""
+          }
+        ]
+      }
+    }
+  }
+}
